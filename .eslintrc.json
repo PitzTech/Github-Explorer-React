@@ -1,54 +1,42 @@
 {
-   "env": {
-      "browser": true,
-      "es2021": true
-   },
-   "extends": [
-      "plugin:react/recommended",
-      "standard",
-      "plugin:@typescript-eslint/recommended",
-      "prettier/@typescript-eslint",
-      "plugin:prettier/recommended"
-   ],
-   "parser": "@typescript-eslint/parser",
-   "parserOptions": {
-      "ecmaFeatures": {
-         "jsx": true
-      },
-      "ecmaVersion": 12,
-      "sourceType": "module"
-   },
-   "plugins": [
-      "react",
-      "react-hooks",
-      "@typescript-eslint",
-      "prettier"
-   ],
-   "rules": {
-      "prettier/prettier": "error",
-      "react-hooks/rules-of-hooks": "error",
-      "react-hooks/exhaustive-deps": "warn",
-      "react/jsx-filename-extension": [
-         1,
-         {
-            "extension": [
-               ".tsx"
-            ]
-         }
-      ],
-      "import/prefer-default-export": "off",
-      "import/extensions": [
-         "error",
-         "ignorePackages",
-         {
-            "ts": "never",
-            "tsx": "never"
-         }
-      ]
-   },
-   "settings": {
-      "import/resolver": {
-         "typescript": {}
-      }
-   }
+	"env": {
+		"browser": true,
+		"es2021": true,
+		"node": true
+	},
+	"extends": [
+		"eslint:recommended",
+		"plugin:react/recommended",
+		"plugin:@typescript-eslint/recommended",
+		"prettier",
+		"plugin:prettier/recommended"
+	],
+	"parser": "@typescript-eslint/parser",
+	"parserOptions": {
+		"ecmaFeatures": {
+			"jsx": true
+		},
+		"ecmaVersion": 12,
+		"sourceType": "module"
+	},
+	"plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
+	"rules": {
+		"indent": ["error", "tab"],
+		"linebreak-style": ["error", "unix"],
+		"quotes": ["error", "double"],
+		"semi": ["error", "never"],
+		"react-hooks/rules-of-hooks": "error",
+		"react-hooks/exhaustive-deps": "warn",
+		"prettier/prettier": [
+			"error",
+			{
+				"trailingComma": true,
+				"tabWidth": 3,
+				"useTabs": true,
+				"semi": false,
+				"arrowParens": "avoid"
+			}
+		]
+		//"import/prefer-default-export": "off" not-needed anymore
+	}
 }
