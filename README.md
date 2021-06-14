@@ -38,7 +38,6 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 -  Axios
 -  Styled Components
 -  React Router DOM
--  React Router DOM
 
 ## 💻 Projeto
 
