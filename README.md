@@ -7,7 +7,7 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-como-usar">Como usar</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#memo-licença">Licença</a>
 </p>
 
@@ -27,20 +27,6 @@
   Um projeto de busca de repositórios GitHub, construido com ReactJS, Typescript e Styled Components
 </h3>
 
-<p align="center">
- <a href="#objective">Objective</a> •
- <a href="#technologies">Technologies</a> •
- <a href="#how-to-run">How to run the application</a> •
-</p>
-
--  [About](#about)
--  [Getting Started](#getting_started)
--  [Usage](#usage)
--  [Built Using](#built_using)
--  [Contributing](../CONTRIBUTING.md)
--  [Authors](#authors)
--  [Acknowledgments](#acknowledgement)
-
 ## 🚀 Tecnologias
 
 Esse projeto foi desenvolvido com as seguintes tecnologias:
@@ -58,7 +44,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O Github Explorer é uma aplicação de busca e visualização de repositórios que estão no Github, onde é possível armazenar localmente os repositórios pesquisados, visualizar as métricas: stars, forks e open issues.
 
-## 👷 Como usar <a name = "usar"></a>
+## 👷 Como usar
 
 <p>Você irá precisar dessas instalar essas ferramentas:</p>
 
