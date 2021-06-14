@@ -21,20 +21,34 @@
 	},
 	"plugins": ["react", "react-hooks", "@typescript-eslint", "prettier"],
 	"rules": {
-		"indent": ["error", "tab"],
+		"indent": ["warn", "tab"],
 		"linebreak-style": ["error", "unix"],
-		"quotes": ["error", "double"],
+		"quotes": ["error", "double", { "allowTemplateLiterals": true }],
 		"semi": ["error", "never"],
+		"object-curly-spacing": ["error", "always"],
+		"no-empty-function": "off",
+		"@typescript-eslint/no-empty-function": ["warn"],
+		"curly": ["warn", "multi-or-nest"],
+		"no-empty-pattern": "off",
+		"@typescript-eslint/explicit-function-return-type": [
+			"error",
+			{
+				"allowExpressions": true
+			}
+		],
 		"react-hooks/rules-of-hooks": "error",
 		"react-hooks/exhaustive-deps": "warn",
 		"prettier/prettier": [
 			"error",
 			{
-				"trailingComma": true,
+				"trailingComma": "none",
 				"tabWidth": 3,
 				"useTabs": true,
 				"semi": false,
-				"arrowParens": "avoid"
+				"arrowParens": "avoid",
+				"jsxBracketSameLine": false,
+				"printWidth": 80
+				//"bracketSpacing": false
 			}
 		]
 		//"import/prefer-default-export": "off" not-needed anymore

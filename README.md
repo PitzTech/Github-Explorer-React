@@ -1,46 +1,102 @@
-# Getting Started with Create React App
+<h1 align="center">
+  <a href="https://github.com/PitzTech/Github-Explorer"><img alt="Github Explorer" title="Github Explorer" src="src/assets/logo.svg" width="220px" /></a>
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<blockquote align="center">“Sucesso não é o resultado de um jogo, mas o destino de uma jornada”!</blockquote>
 
-## Available Scripts
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-In the project directory, you can run:
+<p align="center">
+ <img src="https://img.shields.io/static/v1?label=PRs&message=welcome&color=49AA26&labelColor=000000" alt="PRs welcome!" />
 
-### `yarn start`
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+<br>
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<p align="center">
+   <img src="./.github/screenshot.png" alt="GitHub Explorer Demo">
+</p>
 
-### `yarn test`
+<h3 align="center">
+  Um projeto de busca de repositórios GitHub, construido com ReactJS, Typescript e Styled Components
+</h3>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<p align="center">
+ <a href="#objective">Objective</a> •
+ <a href="#technologies">Technologies</a> •
+ <a href="#how-to-run">How to run the application</a> •
+</p>
 
-### `yarn build`
+-  [About](#about)
+-  [Getting Started](#getting_started)
+-  [Usage](#usage)
+-  [Built Using](#built_using)
+-  [Contributing](../CONTRIBUTING.md)
+-  [Authors](#authors)
+-  [Acknowledgments](#acknowledgement)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 🚀 Tecnologias
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Esse projeto foi desenvolvido com as seguintes tecnologias:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+-  HTML
+-  CSS
+-  Typescript
+-  ReactJS
+-  Axios
+-  Styled Components
+-  React Router DOM
+-  React Router DOM
 
-### `yarn eject`
+## 💻 Projeto
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+O Github Explorer é uma aplicação de busca e visualização de repositórios que estão no Github, onde é possível armazenar localmente os repositórios pesquisados, visualizar as métricas: stars, forks e open issues.
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 👷 Como usar <a name = "usar"></a>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+<p>Você irá precisar dessas instalar essas ferramentas:</p>
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+-  [Node.js](https://nodejs.org/en/ "Node.js")
+-  [Yarn](https://yarnpkg.com/ "Yarn")
+-  [Git](https://git-scm.com/ "Git")
 
-## Learn More
+Para executar basta rodar os seguintes comandos:
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+# Clone this repository
+$ git clone https://github.com/yesminmarie/github-explorer
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# Go into the folder of the project
+$ cd github-explorer
+
+# Install the dependencies
+$ yarn
+
+# Start the client
+$ yarn start
+
+```
+
+## :memo: Licença
+
+Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+
+---
+
+Projeto concluido com ♥ by PitzTech com a tutoria de [Diego Fernandes](https://github.com/diego3g) :wave:
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/victor-laurentino-do-nascimento/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="mailto:victorlaurentino7@gmail.com?subject=Oi%20Victor!%20Vim%20do%20seu%20GitHub"><img alt="Gmail" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
+  &nbsp;&nbsp;&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/victor-laurentino-do-nascimento/"><img alt="LinkedIn" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"></a>
+</p>
+
+<sup>Apoio da [Rocketseat](https://discord.com/invite/gCRAFhc)</sup>
