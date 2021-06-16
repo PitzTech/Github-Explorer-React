@@ -58,7 +58,7 @@ Para executar basta rodar os seguintes comandos:
 $ git clone https://github.com/PitzTech/github-explorer-react
 
 # Go into the folder of the project
-$ cd github-explorer
+$ cd github-explorer-react
 
 # Install the dependencies
 $ yarn
